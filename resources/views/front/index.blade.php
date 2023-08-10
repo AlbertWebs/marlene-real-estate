@@ -1134,7 +1134,7 @@
         <div class="row">
           <div class="col-sm-6 col-lg-3">
             <div class="footer-widget light-style mb-4 mb-lg-5">
-              <a class="footer-logo" href="index.html"><img class="mb40" src="{{asset('theme/images/header-logo3.svg')}}" alt=""></a>
+              <a class="footer-logo" href="#"><img class="mb40" src="{{asset('theme/images/lack-White-Minimalist-Business-Logo.png')}}" alt=""></a>
               <div class="contact-info mb25">
                 <p class="text mb5">Address</p>
                 <h6 class="info-phone"><a href="%2b(0)-123-050-945-02.html">Edif. 7 Mares, Av. Dom João II 20 1º, 1990-095 Lisboa, Portugal.</a></h6>
