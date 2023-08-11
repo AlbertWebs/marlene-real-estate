@@ -9,7 +9,7 @@
             <div class="row">
               <div class="col-xl-8">
                 <div class="inner-banner-style3">
-                  <h2 class="hero-title mb30 animate-up-1">Find The Perfect Place to Live With your Family</h2>
+                  <h2 class="hero-title mb30 animate-up-1">Find The Perfect Place for your Real Estate Needs</h2>
                   <div class="advance-style3 mb30 mx-auto animate-up-2">
                     <ul class="nav nav-tabs p-0 m-0" id="myTab" role="tablist">
                       <li class="nav-item" role="presentation">
@@ -641,8 +641,8 @@
                     <div class="row wow fadeInUp" data-wow-delay="00ms">
                         <div class="col-lg-9">
                           <div class="main-title2">
-                            <h2 class="title">Discover Popular Properties</h2>
-                            <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p>
+                            <h2 class="title">Discover Popular Cities</h2>
+                            {{-- <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p> --}}
                           </div>
                         </div>
                         <div class="col-lg-3">
