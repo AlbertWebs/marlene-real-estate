@@ -42,51 +42,58 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js')}}"></script>
 <![endif]-->
 
+
 </head>
 <body>
 <div class="wrapper ovh">
   <div class="preloader"></div>
 
   <!-- Main Header Nav -->
-  <header class="header-nav nav-innerpage-style menu-home4 main-menu">
+
+  <header class="header-nav nav-homepage-style at-home3 stricky main-menu">
     <!-- Ace Responsive Menu -->
     <nav class="posr">
-      <div class="container maxw1600 posr menu_bdrt1">
+      <div class="container posr menu_bdrt1">
         <div class="row align-items-center justify-content-between">
           <div class="col-auto">
-            <!-- Responsive Menu Structure-->
-            <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-              <li class="visible_list"> <a class="list-item" href="#"><span class="title">Buy</span></a>
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="logos mr40 mr10-lg">
+                <a class="header-logo logo2" href="#"><img width="138" src="{{asset('theme/images/Black-White-Minimalist-Business-Logo.png')}}" alt="Header Logo"></a>
+                <a class="header-logo logo1" href="#"><img width="138" src="{{asset('theme/images/Black-White-Minimalist-Business-Logo.png')}}" alt="Header Logo"></a>
+              </div>
+              <!-- Responsive Menu Structure-->
+              <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+               {{--  --}}
+               <li class="visible_list"> <a class="list-item" href="#"><span class="title">Buy</span></a>
 
-              <li class="visible_list"> <a class="list-item"  href="#"><span class="title">Rent</span></a>
+                <li class="visible_list"> <a class="list-item"  href="#"><span class="title">Rent</span></a>
 
-              </li>
+                </li>
 
-              <li class="visible_list"> <a class="list-item" href="#"><span class="title">Sell</span></a>
+                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Sell</span></a>
 
-              </li>
+                </li>
 
-              <li class="visible_list"> <a class="list-item" href="#"><span class="title">Compass Exclusive</span></a>
+                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Compass Exclusive</span></a>
 
-              </li>
+                </li>
 
-              <li class="visible_list"> <a class="list-item" href="#"><span class="title">New Development</span></a>
+                <li class="visible_list"> <a class="list-item" href="#"><span class="title">New Development</span></a>
 
-              </li>
+                </li>
 
-              <li class="visible_list"> <a class="list-item" href="#"><span class="title">Agents</span></a>
+                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Agents</span></a>
 
-              </li>
-            </ul>
-          </div>
-          <div class="col-auto">
-            <a class="header-logo"  href="#"><img width="138" src="{{asset('theme/images/Black-White-Minimalist-Business-Logo.png')}}" alt="Header Logo"></a>
+                </li>
+               {{--  --}}
+              </ul>
+            </div>
           </div>
           <div class="col-auto">
             <div class="d-flex align-items-center">
-              <a class="login-info d-flex align-items-center" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i class="far fa-user-circle fz16 me-2"></i> <span class="d-none d-xl-block">Login / Register</span></a>
-              <a class="ud-btn btn-dark add-property bdrs0 mx-2 mx-xl-4" href="page-dashboard-add-property.html">Add Property<i class="fal fa-arrow-right-long"></i></a>
-              <a class="sidemenu-btn filter-btn-right" href="#"><img src="{{asset('theme/images/dark-nav-icon.svg')}}" alt=""></a>
+              {{-- <a class="login-info d-flex align-items-center" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i class="far fa-user-circle fz16 me-2"></i> <span class="d-none d-xl-block">Login / Register</span></a> --}}
+              <a class="ud-btn btn-dark mx-2 mx-xl-4" href="#">Contact Us<i class="fal fa-envelope"></i></a>
+              <a class="sidemenu-btn filter-btn-right" href="#"><img src="{{asset('theme/images/icon/nav-icon-dark.svg')}}" alt=""></a>
             </div>
           </div>
         </div>
@@ -536,7 +543,7 @@
 
 
 <!-- Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM&amp;callback=initMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAV0KGps0756ddxLuGeqUbiZaOHHvRyfcs&callback=initMap"></script>
 <script src="{{asset('theme/js/infobox.min.js')}}"></script>
 <script src="{{asset('theme/js/markerclusterer.js')}}"></script>
 <script src="{{asset('theme/js/maps.js')}}"></script>

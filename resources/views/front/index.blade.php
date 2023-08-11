@@ -3,294 +3,177 @@
 @section('content')
 <div class="body_content">
     <!-- Home Banner Style V1 -->
-    <section class="home-banner-style7 pt0 pb30 bgc-white">
-      <div class="home-style7 maxw1600 bdrs24 position-relative mx-auto mx10-lg">
-        <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-xl-6">
-              <div class="inner-banner-style7 mb30-lg">
-                <h1 class="hero-title mb30 animate-up-1">Find Your Place <br class="d-none d-lg-block"> </h1>
-                <div class="advance-style3 at-home7 mb30 animate-up-2">
-                  <ul class="nav nav-tabs p-0 m-0" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Buy</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Rent</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Sold</button>
-                    </li>
-                  </ul>
-                  <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                      <div class="advance-content-style3 at-home7">
-                        <div class="row">
-                          <div class="col-md-8 pe-3 pe-md-0">
-                            <div class="advance-search-field position-relative text-start">
-                              <form method="get" class="form-search position-relative" accept-charset="utf-8">
-                                <div class="box-search">
-                                  <span class="icon flaticon-home-1"></span>
-                                  <input class="form-control rounded-0" type="text" name="search" placeholder="Enter Keyword">
-                                  <div class="search-suggestions rounded-0">
-                                    <h6 class="fz14 ml20 mt25 mb-0">Recent Searches</h6>
-                                    <div class="box-suggestions">
-                                      <ul class="p-0 m-0">
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-maps pe-2"></i> New York, NY</div>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-maps pe-2"></i> Los Angeles</div>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-home pe-2"></i> Villa on Hollywood Boulevard</div>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-maps pe-2"></i> New York, NY</div>
-                                          </div>
-                                        </li>
-                                      </ul>
-                                    </div>
+    <section class="home-banner-style3 p0">
+        <div class="home-style3">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-8">
+                <div class="inner-banner-style3">
+                  <h2 class="hero-title mb30 animate-up-1">Find The Perfect Place to Live With your Family</h2>
+                  <div class="advance-style3 mb30 mx-auto animate-up-2">
+                    <ul class="nav nav-tabs p-0 m-0" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Buy</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Rent</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Sold</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="advance-content-style3">
+                          <div class="row">
+                            <div class="col-md-5 col-lg-4">
+                              <div class="advance-search-field position-relative text-start">
+                                <form action="#" method="get" class="form-search position-relative" accept-charset="utf-8">
+                                  <div class="box-search">
+                                    <span class="icon flaticon-home-1"></span>
+                                    <input class="form-control bgc-f7" type="text" name="search" placeholder="Enter Keyword">
                                   </div>
-                                </div>
-                              </form>
+                                </form>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="d-flex align-items-center justify-content-md-center mt-2 mt-md-0">
-                              <button class="advance-search-btn mr15" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="flaticon-settings"></span> Advanced</button>
-                              <button class="advance-search-icon ud-btn btn-dark" type="button"><span class="flaticon-search"></span></button>
+                            <div class="col-md-3 col-lg-4">
+                              <div class="mt-3 mt-md-0">
+                                <div class="bootselect-multiselect">
+                                  <select class="selectpicker">
+                                    <option>type</option>
+                                    <option value="Apartments">Apartments</option>
+                                    <option value="Bungalow">Bungalow</option>
+                                    <option value="Houses">Houses</option>
+                                    <option value="Loft">Loft</option>
+                                    <option value="Office">Office</option>
+                                    <option value="TownHome">TownHome</option>
+                                    <option value="Villa">Villa</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4 pe-0">
+                              <div class="d-flex align-items-center justify-content-start justify-content-md-center mt-2 mt-md-0">
+                                <button class="advance-search-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="flaticon-settings"></span> Advanced</button>
+                                <button class="advance-search-icon ud-btn btn-thm ms-4" type="button"><span class="flaticon-search"></span></button>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                      <div class="advance-content-style3 at-home7">
-                        <div class="row">
-                          <div class="col-md-8 pe-3 pe-md-0">
-                            <div class="advance-search-field position-relative text-start">
-                              <form method="get" class="form-search position-relative" accept-charset="utf-8">
-                                <div class="box-search">
-                                  <span class="icon flaticon-home-1"></span>
-                                  <input class="form-control rounded-0" type="text" name="search" placeholder="Enter Keyword">
-                                  <div class="search-suggestions rounded-0">
-                                    <h6 class="fz14 ml20 mt25 mb-0">Recent Searches</h6>
-                                    <div class="box-suggestions">
-                                      <ul class="p-0 m-0">
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-maps pe-2"></i> New York, NY</div>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-maps pe-2"></i> Los Angeles</div>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-home pe-2"></i> Villa on Hollywood Boulevard</div>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-maps pe-2"></i> New York, NY</div>
-                                          </div>
-                                        </li>
-                                      </ul>
-                                    </div>
+                      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="advance-content-style3">
+                          <div class="row">
+                            <div class="col-md-5 col-lg-4">
+                              <div class="advance-search-field position-relative text-start">
+                                <form action="#" method="get" class="form-search position-relative" accept-charset="utf-8">
+                                  <div class="box-search">
+                                    <span class="icon flaticon-home-1"></span>
+                                    <input class="form-control bgc-f7" type="text" name="search" placeholder="Enter Keyword">
                                   </div>
-                                </div>
-                              </form>
+                                </form>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="d-flex align-items-center justify-content-md-center mt-2 mt-md-0">
-                              <button class="advance-search-btn mr15" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="flaticon-settings"></span> Advanced</button>
-                              <button class="advance-search-icon ud-btn btn-dark" type="button"><span class="flaticon-search"></span></button>
+                            <div class="col-md-3 col-lg-4">
+                              <div class="mt-3 mt-md-0">
+                                <div class="bootselect-multiselect">
+                                  <select class="selectpicker">
+                                    <option>type</option>
+                                    <option value="Apartments">Apartments</option>
+                                    <option value="Bungalow">Bungalow</option>
+                                    <option value="Houses">Houses</option>
+                                    <option value="Loft">Loft</option>
+                                    <option value="Office">Office</option>
+                                    <option value="TownHome">TownHome</option>
+                                    <option value="Villa">Villa</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4 pe-0">
+                              <div class="d-flex align-items-center justify-content-start justify-content-md-center mt-2 mt-md-0">
+                                <button class="advance-search-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="flaticon-settings"></span> Advanced</button>
+                                <button class="advance-search-icon ud-btn btn-thm ms-4" type="button"><span class="flaticon-search"></span></button>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                      <div class="advance-content-style3 at-home7">
-                        <div class="row">
-                          <div class="col-md-8 pe-3 pe-md-0">
-                            <div class="advance-search-field position-relative text-start">
-                              <form method="get" class="form-search position-relative" accept-charset="utf-8">
-                                <div class="box-search">
-                                  <span class="icon flaticon-home-1"></span>
-                                  <input class="form-control rounded-0" type="text" name="search" placeholder="Enter Keyword">
-                                  <div class="search-suggestions rounded-0">
-                                    <h6 class="fz14 ml20 mt25 mb-0">Recent Searches</h6>
-                                    <div class="box-suggestions">
-                                      <ul class="p-0 m-0">
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-maps pe-2"></i> New York, NY</div>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-maps pe-2"></i> Los Angeles</div>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-home pe-2"></i> Villa on Hollywood Boulevard</div>
-                                          </div>
-                                        </li>
-                                        <li>
-                                          <div class="info-product">
-                                            <div class="item_title"><i class="flaticon-maps pe-2"></i> New York, NY</div>
-                                          </div>
-                                        </li>
-                                      </ul>
-                                    </div>
+                      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="advance-content-style3">
+                          <div class="row">
+                            <div class="col-md-5 col-lg-4">
+                              <div class="advance-search-field position-relative text-start">
+                                <form action="#" method="get" class="form-search position-relative" accept-charset="utf-8">
+                                  <div class="box-search">
+                                    <span class="icon flaticon-home-1"></span>
+                                    <input class="form-control bgc-f7" type="text" name="search" placeholder="Enter Keyword">
                                   </div>
-                                </div>
-                              </form>
+                                </form>
+                              </div>
                             </div>
-                          </div>
-                          <div class="col-md-4">
-                            <div class="d-flex align-items-center justify-content-md-center mt-2 mt-md-0">
-                              <button class="advance-search-btn mr15" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="flaticon-settings"></span> Advanced</button>
-                              <button class="advance-search-icon ud-btn btn-dark" type="button"><span class="flaticon-search"></span></button>
+                            <div class="col-md-3 col-lg-4">
+                              <div class="mt-3 mt-md-0">
+                                <div class="bootselect-multiselect">
+                                  <select class="selectpicker">
+                                    <option>type</option>
+                                    <option value="Apartments">Apartments</option>
+                                    <option value="Bungalow">Bungalow</option>
+                                    <option value="Houses">Houses</option>
+                                    <option value="Loft">Loft</option>
+                                    <option value="Office">Office</option>
+                                    <option value="TownHome">TownHome</option>
+                                    <option value="Villa">Villa</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4 pe-0">
+                              <div class="d-flex align-items-center justify-content-start justify-content-md-center mt-2 mt-md-0">
+                                <button class="advance-search-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="flaticon-settings"></span> Advanced</button>
+                                <button class="advance-search-icon ud-btn btn-thm ms-4" type="button"><span class="flaticon-search"></span></button>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="d-flex animate-up-3">
-                  <a href="#">
-                    <div class="funfact_one mr60 mr10-xs">
-                      <div class="details">
-                        <ul class="ps-0 mb-0">
-                          <li><div class="timer">88</div></li>
-                        </ul>
-                        <p class="text mb-0">Rented</p>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div class="funfact_one mr60 mr10-xs">
-                      <div class="details">
-                        <ul class="ps-0 mb-0 d-flex">
-                          <li><div class="timer">10</div></li>
-                          {{-- <li><span>K</span></li> --}}
-                          <li><span>+</span></li>
-                        </ul>
-                        <p class="text mb-0">Property Sold</p>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div class="funfact_one">
-                      <div class="details">
-                        <ul class="ps-0 mb-0 d-flex justify-content-sm-center">
-                          <li><div class="timer">20</div></li>
-                          <li><span>+</span></li>
-                        </ul>
-                        <p class="text mb-0">Property Listed</p>
-                      </div>
-                    </div>
-                  </a>
+                  <div class="d-block d-md-flex animate-up-3">
+                    <p class="hero-text fz15 me-2">Popular Searches:</p>
+                    <a href="#"> House,</a>
+                    <a href="#"> Apartments,</a>
+                    <a href="#"> Office,</a>
+                    <a href="#"> Villa,</a>
+                    <a href="#"> Bungalow</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-6">
-              <div class="home7-main-slider">
-                <div class="swiper mySwiper">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide" data-swiper-slide-index="00">
-                      <div class="listing-style13">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/slider-home7-1.jpg')}}" alt="">
-                        </div>
-                        <div class="list-content">
-                          <div class="h4 list-price animate-up-1 mb-0">$986,00</div>
-                          <h2 class="list-title animate-up-2"><a href="#">Studio on Grand Avenue</a></h2>
-                          <div class="list-meta d-flex align-items-center animate-up-3">
-                            <a class="mr10" href="#">32 Beds -</a>
-                            <a class="mr10" href="#">91 Baths -</a>
-                            <a href="#">1500 sq ft</a>
-                          </div>
-                          <a href="#" class="ud-btn btn-transparent2 animate-up-2">View Details<i class="fal fa-arrow-right-long"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide" data-swiper-slide-index="01">
-                      <div class="listing-style13">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/slider-home7-2.jpg')}}" alt="">
-                        </div>
-                        <div class="list-content">
-                          <div class="h4 list-price animate-up-1 mb-0">$14,000</div>
-                          <h2 class="list-title animate-up-1"><a href="#">New apartment nice view</a></h2>
-                          <div class="list-meta d-flex align-items-center animate-up-1">
-                            <a class="mr10" href="#">32 Beds -</a>
-                            <a class="mr10" href="#">91 Baths -</a>
-                            <a href="#">1500 sq ft</a>
-                          </div>
-                          <a href="#" class="ud-btn btn-transparent2 animate-up-2">View Details<i class="fal fa-arrow-right-long"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide" data-swiper-slide-index="02">
-                      <div class="listing-style13">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/slider-home7-3.jpg')}}" alt="">
-                        </div>
-                        <div class="list-content">
-                          <div class="h4 list-price animate-up-1 mb-0">$14,000</div>
-                          <h2 class="list-title animate-up-1"><a href="#">New apartment nice view</a></h2>
-                          <div class="list-meta d-flex align-items-center animate-up-1">
-                            <a class="mr10" href="#">32 Beds -</a>
-                            <a class="mr10" href="#">91 Baths -</a>
-                            <a href="#">1500 sq ft</a>
-                          </div>
-                          <a href="#" class="ud-btn btn-transparent2 animate-up-2">View Details<i class="fal fa-arrow-right-long"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swpr_paginations">
-                    <div class="slideactive">01</div>
-                    <div class="slidetotal">03</div>
-                  </div>
-                  <!-- </div> -->
-                  <div class="posr mt-4">
-                    <div class="swpr_custom_prgrsba swiper-pagination swiper-pagination-progressbar"> <span class="swiper-pagination-progressbar-fill"></span> </div>
-                  </div>
+              <div class="col-xl-4 d-none d-xl-block">
+                <div class="home3-img-box1">
+                  <img class="img-1" src="{{asset('theme/images/about/about-3.png')}}" alt="">
+                  <img class="img-2 spin-right" src="{{asset('theme/images/about/element-3.png')}}" alt="">
+                  <img class="img-3 spin-right" src="{{asset('theme/images/about/element-3.png')}}" alt="">
+                  <img class="img-4 default-box-shadow1 bounce-y" src="images/about/about-1.png')}}" alt="">
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
 
 
     <!-- Featured homes -->
-    <section class="pt-0 pb90 pb30-md bgc-white">
+    <section class="pt-0 pb90 pb30-md bgc-white" style="margin-top:100px">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <div class="main-title wow fadeInUp" data-wow-delay="100ms">
-              <h2 class="title">Featured homes</h2>
-              <p class="paragraph">Get some Inspirations from 1800+ skills</p>
+              <h2 class="title">Properties & Investment</h2>
+              <p class="paragraph">
+                Real Estate Properties / Commercial Properties / Guaranteed Return Investments
+              </p>
             </div>
           </div>
         </div>
@@ -356,7 +239,7 @@
             <div class="col-lg-9">
               <div class="main-title2">
                 <h2 class="title">Discover Popular Properties</h2>
-                <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p>
+                {{-- <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p> --}}
               </div>
             </div>
             <div class="col-lg-3">
@@ -749,117 +632,34 @@
         </div>
       </section>
 
-      <!-- Explore Apartment -->
-    <section class="pt-0 pb90 pb30-md bgc-f7" >
-        <div class="container" style="padding:100px">
-          <div class="row align-items-md-center wow fadeInUp" data-wow-delay="00ms">
-            <div class="col-lg-9">
-              <div class="main-title2">
-                <h2 class="title">Properties by Cities</h2>
-                <p class="paragraph">Explore Proper from the various cities we have covered</p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="text-start text-lg-end mb-3">
-                <a class="ud-btn2" href="#">See All Properties<i class="fal fa-arrow-right-long dark-color"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="row wow fadeInUp" data-wow-delay="300ms">
-            <div class="col-sm-6 col-lg-3">
-              <a href="page-property-single-v1.html">
-                <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                  <div class="city-img flex-shrink-0"><img src="{{asset('theme/images/listings/cp-s-1.png')}}" alt=""></div>
-                  <div class="flex-shrink-1 ms-3">
-                    <h6 class="mb-1">Coimbra</h6>
-                    <p class="mb-0">5 Properties</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <a href="page-property-single-v1.html">
-                <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                  <div class="city-img flex-shrink-0"><img src="{{asset('theme/images/listings/cp-s-2.png')}}" alt=""></div>
-                  <div class="flex-shrink-1 ms-3">
-                    <h6 class="mb-1">Tavira</h6>
-                    <p class="mb-0">3 Properties</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <a href="page-property-single-v1.html">
-                <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                  <div class="city-img flex-shrink-0"><img src="{{asset('theme/images/listings/cp-s-3.png')}}" alt=""></div>
-                  <div class="flex-shrink-1 ms-3">
-                    <h6 class="mb-1">Aveiro</h6>
-                    <p class="mb-0">4 Properties</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <a href="page-property-single-v1.html">
-                <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                  <div class="city-img flex-shrink-0"><img src="{{asset('theme/images/listings/cp-s-4.png')}}" alt=""></div>
-                  <div class="flex-shrink-1 ms-3">
-                    <h6 class="mb-1">Evora</h6>
-                    <p class="mb-0">1 Properties</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <a href="page-property-single-v1.html">
-                <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                  <div class="city-img flex-shrink-0"><img src="{{asset('theme/images/listings/cp-s-5.png')}}" alt=""></div>
-                  <div class="flex-shrink-1 ms-3">
-                    <h6 class="mb-1">Porto</h6>
-                    <p class="mb-0">4 Properties</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <a href="page-property-single-v1.html">
-                <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                  <div class="city-img flex-shrink-0"><img src="{{asset('theme/images/listings/cp-s-6.png')}}" alt=""></div>
-                  <div class="flex-shrink-1 ms-3">
-                    <h6 class="mb-1">Sintra</h6>
-                    <p class="mb-0">3 Properties</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <a href="page-property-single-v1.html">
-                <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                  <div class="city-img flex-shrink-0"><img src="{{asset('theme/images/listings/cp-s-7.png')}}" alt=""></div>
-                  <div class="flex-shrink-1 ms-3">
-                    <h6 class="mb-1">Aveiro</h6>
-                    <p class="mb-0">1 Properties</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <a href="page-property-single-v1.html">
-                <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                  <div class="city-img flex-shrink-0"><img src="{{asset('theme/images/listings/cp-s-8.png')}}" alt=""></div>
-                  <div class="flex-shrink-1 ms-3">
-                    <h6 class="mb-1">Coimbra</h6>
-                    <p class="mb-0">2 Properties</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-    </section>
+
 
     <section class="p-0">
-        <div class="container-fluid p-0">
+        <div class="container p-0">
+            {{--  --}}
+                <div class="container">
+                    <div class="row wow fadeInUp" data-wow-delay="00ms">
+                        <div class="col-lg-9">
+                          <div class="main-title2">
+                            <h2 class="title">Discover Popular Properties</h2>
+                            <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-3">
+                          <div class="dark-light-navtab style2 text-start text-lg-end mt-0 mt-lg-4 mb-4">
+                            <ul class="nav nav-pills justify-content-start justify-content-lg-end" id="pills-tab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For Rent</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link me-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Sale</button>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            {{--  --}}
           <div class="row">
             <div class="col-lg-12">
               <div class="home10-map" id="map" data-map-zoom="7" data-map-scroll="true"></div>
@@ -867,6 +667,8 @@
           </div>
         </div>
       </section>
+
+
 
 
 

@@ -6613,7 +6613,7 @@ textarea:focus {
 .btn-light-gray:before,
 .btn-transparent:before,
 .btn-transparent2:before {
-  background-color: #EE4C34;
+  background-color: #666666;
   content: "";
   height: 100%;
   left: -100%;
@@ -9949,7 +9949,7 @@ input:focus-visible {
 }
 
 .text-thm2 {
-  color: #EE4C34;
+  color: #666666;
 }
 
 .bgc-thm {
@@ -9957,7 +9957,7 @@ input:focus-visible {
 }
 
 .bgc-thm2 {
-  background-color: #EE4C34;
+  background-color: #666666;
 }
 
 .bgc-f7 {

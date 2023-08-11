@@ -22,13 +22,11 @@ var infoBox_ratingType='star-rating';(function($){"use strict";function mainMap(
 
 
 var locations=[
-    [locationData('theme/images/resource/listing/1-1.jpg', '5', '7', 'listing-single.html', "Aquestrian Family Home",      '+351 123 050 945 02 ', 'Porto City, CA, Portugal', 'sky', 'flaticon-tent', 'Hotel', 'Now Closed', ), 40.94401669296697, -74.16938781738281, 1, '<i class="icon flaticon-desk-bell"></i>'],
-    [locationData('theme/images/resource/listing/1-2.jpg', '5', '8', 'listing-single.html', "3571 Rierside Downs",  '+351 123 050 945 02 ', 'Porto City, CA, Portugal', 'pink', 'flaticon-cutlery', 'Restaurant', 'Now Closed', ), 40.77055783505125, -74.26002502441406, 2, '<i class="icon flaticon-cutlery"></i>'],
-    [locationData('theme/images/resource/listing/1-3.jpg', '5', '9', 'listing-single.html', "Villa on Hollywood Boulevard",'+351 123 050 945 02 ', 'Porto City, CA, Portugal', 'purple', 'flaticon-tent', 'Art & History', 'Now Closed', ), 40.7427837, -73.11445617675781, 3, '<i class="icon flaticon-tent"></i>'],
-    [locationData('theme/images/resource/listing/2-1.jpg', '5', '6', 'listing-single.html', "Triple Story House for Rent", '+351 123 050 945 02 ', 'Porto City, CA, Portugal', 'green', 'flaticon-shopping-bag', 'Shopping', 'Now Closed', ), 40.70437865245596, -73.98674011230469, 4, '<i class="icon flaticon-shopping-bag"></i>'],
-    [locationData('theme/images/resource/listing/2-2.jpg', '5', '5', 'listing-single.html', "Northwest Office Space",     '+351 123 050 945 02 ', 'Porto City, CA, Portugal', 'pink', 'flaticon-cutlery', 'Restaurant', 'Now Closed', ), 40.641311, -73.778139, 5, '<i class="icon flaticon-cutlery"></i>'],
-    [locationData('theme/images/resource/listing/2-3.jpg', '5', '4', 'listing-single.html', "House on the beverly hills", '+351 123 050 945 02 ', 'Porto City, CA, Portugal', 'orange', 'flaticon-cutlery', 'Restaurant', 'Now Closed', ), 41.080938, -73.535957, 6, '<i class="icon flaticon-cutlery"></i>'],
-    [locationData('theme/images/resource/listing/2-4.jpg', '5', '3', 'listing-single.html', "Luxury villa called Elvado ", '+351 123 050 945 02 ', 'Porto City, CA, Portugal', 'dark-pink', 'flaticon-gym', ' Gym & Fitness ', 'Now Closed', ), 41.079386, -73.519478, 7, '<i class="icon flaticon-mirror"></i>'],
+    [locationData('theme/images/resource/listing/1-1.jpg', '5', '7', 'listing-single.html', "Aquestrian Family Home",      '+351 123 050 945 02', 'Porto City, Libra, Portugal', 'sky', 'flaticon-tent', 'Hotel', 'Now Closed', ), 38.7223, 9.1393, 1, '<i class="fa fa-map-marker"></i>'],
+    [locationData('theme/images/resource/listing/1-2.jpg', '5', '8', 'listing-single.html', "3571 Rierside Downs",  '+351 123 050 945 02', 'Porto City, Coimbra, Portugal', 'pink', 'flaticon-cutlery', 'Restaurant', 'Now Closed', ), 40.2033, 8.4103, 2, '<i class="fa fa-map-marker"></i>'],
+    [locationData('theme/images/resource/listing/1-3.jpg', '5', '9', 'listing-single.html', "Villa on Hollywood Boulevard",'+351 123 050 945 02', 'Porto City, CA, Portugal', 'purple', 'flaticon-tent', 'Art & History', 'Now Closed', ), 41.1579, 8.6291, 3, '<i class="fa fa-map-marker"></i>'],
+    [locationData('theme/images/resource/listing/2-1.jpg', '5', '6', 'listing-single.html', "Triple Story House for Rent", '+351 123 050 945 02', 'Porto City, CA, Portugal', 'green', 'flaticon-shopping-bag', 'Shopping', 'Now Closed', ), 38.5714, 7.9135, 4, '<i class="fa fa-map-marker"></i>'],
+    [locationData('theme/images/resource/listing/2-4.jpg', '5', '3', 'listing-single.html', "Chalbi Condominiums, ", '+351 123 050 945 02', 'Kilimani, Nairobi, kenya', 'dark-pink', 'flaticon-gym', ' Gym & Fitness ', 'Now Closed', ), -1.2879054, 36.7927116, 7, '<i class="fa fa-map-marker"></i>'],
 ];
 
 
@@ -94,7 +92,7 @@ function numericalRating(ratingElem) {
 google.maps.event.addListener(ib,'domready',function(){if(infoBox_ratingType='numerical-rating'){numericalRating('.infoBox .'+infoBox_ratingType+'');}
 if(infoBox_ratingType='star-rating'){starRating('.infoBox .'+infoBox_ratingType+'');}});var mapZoomAttr=$('#map').attr('data-map-zoom');var mapScrollAttr=$('#map').attr('data-map-scroll');if(typeof mapZoomAttr!==typeof undefined&&mapZoomAttr!==false){var zoomLevel=parseInt(mapZoomAttr);}else{var zoomLevel=5;}
 if(typeof mapScrollAttr!==typeof undefined&&mapScrollAttr!==false){var scrollEnabled=parseInt(mapScrollAttr);}else{var scrollEnabled=false;}
-var map=new google.maps.Map(document.getElementById('map'),{zoom:zoomLevel,scrollwheel:scrollEnabled,center:new google.maps.LatLng(40.80,-73.70),mapTypeId:google.maps.MapTypeId.ROADMAP,zoomControl:false,mapTypeControl:false,scaleControl:false,panControl:false,navigationControl:false,streetViewControl:false,gestureHandling:'cooperative',styles:[
+var map=new google.maps.Map(document.getElementById('map'),{zoom:zoomLevel,scrollwheel:scrollEnabled,center:new google.maps.LatLng(39.3999,8.2245),mapTypeId:google.maps.MapTypeId.ROADMAP,zoomControl:false,mapTypeControl:false,scaleControl:false,panControl:false,navigationControl:false,streetViewControl:false,gestureHandling:'cooperative',styles:[
     {
         "featureType": "water",
         "elementType": "geometry",
