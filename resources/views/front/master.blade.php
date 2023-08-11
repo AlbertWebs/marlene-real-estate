@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="{{asset('theme/css/animate.css')}}">
 <link rel="stylesheet" href="{{asset('theme/css/magnific-popup.css')}}">
 <link rel="stylesheet" href="{{asset('theme/css/slider.css')}}">
+<link rel="stylesheet" href="{{asset('theme/css/googlemap.css')}}">
 <link rel="stylesheet" href="{{asset('theme/css/style.css')}}">
 <link rel="stylesheet" href="{{asset('theme/css/ud-custom-spacing.css')}}">
 <!-- Responsive stylesheet -->
@@ -532,7 +533,17 @@
 <script src="{{asset('theme/js/swiper.js')}}"></script>
 <script src="{{asset('theme/js/pricing-slider.js')}}"></script>
 <!-- Custom script for all pages -->
+
+
+<!-- Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM&amp;callback=initMap"></script>
+<script src="{{asset('theme/js/infobox.min.js')}}"></script>
+<script src="{{asset('theme/js/markerclusterer.js')}}"></script>
+<script src="{{asset('theme/js/maps.js')}}"></script>
+<!-- Google Maps -->
+
 <script src="{{asset('theme/js/script.js')}}"></script>
 </body>
 
 </html>
+

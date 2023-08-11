@@ -858,110 +858,22 @@
         </div>
     </section>
 
-
-
-
-    <!-- Customers Testimonials -->
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
-            <div class="main-title text-center">
-              <h2 class="title">Testimonials From Our Customers</h2>
-              <p class="paragraph">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor</p>
+    <section class="p-0">
+        <div class="container-fluid p-0">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="home10-map" id="map" data-map-zoom="7" data-map-scroll="true"></div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="home7-testimonial-slider dots_none slider-1-grid owl-carousel owl-theme">
-              <div class="item">
-                <div class="row">
-                  <div class="col-lg-5 col-xl-4 offset-xl-1">
-                    <div class="testimonial-style4-img position-relative">
-                      <img src="{{asset('theme/images/about/about-4.jpg')}}" alt="">
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-xl-6">
-                    <div class="testimonial-style4 position-relative">
-                      <h6 class="sub-title mb25">Perfect Quality</h6>
-                      <span class="icon fas fa-quote-left"></span>
-                      <h4 class="title mb25">“Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance. And we didn’t on our original designs.”</h4>
-                      <h6 class="author fz14">Ritanzel Dion</h6>
-                      <p class="desig mb-0">Bank of Baroda</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="row">
-                  <div class="col-lg-5 col-xl-4 offset-xl-1">
-                    <div class="testimonial-style4-img position-relative">
-                      <img src="{{asset('theme/images/about/about-4.jpg')}}" alt="">
-                    </div>
-                  </div>
-                  <div class="col-lg-6 col-xl-6">
-                    <div class="testimonial-style4 position-relative">
-                      <h6 class="sub-title mb25">Perfect Quality</h6>
-                      <span class="icon fas fa-quote-left"></span>
-                      <h4 class="title mb25">“Amazing design, easy to customize and a design quality superlative account on its cloud platform for the optimized performance. And we didn’t on our original designs.”</h4>
-                      <h6 class="author fz14">Dianne Russell</h6>
-                      <p class="desig mb-0">Bank of Sydney</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- How We Help -->
-    <section class="pb90 pb30-md bgc-thm-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
-            <div class="main-title text-center">
-              <h2 class="title">See how How It Works</h2>
-              <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 col-lg-4 wow fadeInLeft" data-wow-delay="00ms">
-            <div class="iconbox-style2 text-center">
-              <div class="icon"><img src="{{asset('theme/images/icon/property-buy.svg')}}" alt=""></div>
-              <div class="iconbox-content">
-                <h4 class="title">Buy a property</h4>
-                <p class="text">Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.</p>
-                <a href="page-property-single-v1.html" class="ud-btn btn-white2 bdrs0 mb20">Find a home<i class="fal fa-arrow-right-long"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-            <div class="iconbox-style2 active text-center">
-              <div class="icon"><img src="{{asset('theme/images/icon/property-sell.svg')}}" alt=""></div>
-              <div class="iconbox-content">
-                <h4 class="title">Sell a property</h4>
-                <p class="text">Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.</p>
-                <a href="page-property-single-v1.html" class="ud-btn btn-white2 bdrs0 mb20">Place an ad<i class="fal fa-arrow-right-long"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 wow fadeInRight" data-wow-delay="300ms">
-            <div class="iconbox-style2 text-center">
-              <div class="icon"><img src="{{asset('theme/images/icon/property-rent.svg')}}" alt=""></div>
-              <div class="iconbox-content">
-                <h4 class="title">Rent a property</h4>
-                <p class="text">Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.</p>
-                <a href="page-property-single-v1.html" class="ud-btn btn-white2 bdrs0 mb20">Find a rental<i class="fal fa-arrow-right-long"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+
+
+
+
+
+
 
     <!-- Inquiry Form -->
     <section>
@@ -1054,80 +966,9 @@
       </div>
     </section>
 
-    <!-- Our CTA -->
-    <section class="our-cta bgc-dark pt90 pb90 pt60-md pb60-md">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7 col-xl-6 wow fadeInLeft">
-            <div class="cta-style3">
-              <h2 class="cta-title text-white">Become a Real Estate Agent</h2>
-              <p class="cta-text mb25 text-white">We only work with the best companies around the globe to survey</p>
-              <a href="page-contact.html" class="ud-btn btn-white bdrs0">Register Now <i class="fal fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-5 col-xl-4 offset-xl-2 d-none d-lg-block wow fadeIn" data-wow-delay="300ms">
-            <div class="cta-img">
-              <img src="{{asset('theme/images/about/cta-member-1.png')}}" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-     <!-- Explore Apartment -->
-     <section class="mb35 mb0-md pb30-md">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="00ms">
-              <div class="main-title text-start text-md-center">
-                <h2 class="title">From Our Blog</h2>
-                <p class="paragraph">Learn From Oyr Random Real Estate Articles</p>
-              </div>
-            </div>
-          </div>
-          <div class="row wow fadeInUp" data-wow-delay="300ms">
-            <div class="col-sm-6 col-lg-4">
-              <div class="blog-style1">
-                <div class="blog-img"><img class="w-100" src="{{asset('theme/images/blog/blog-1.jpg')}}" alt=""></div>
-                <div class="blog-content">
-                  <div class="date">
-                    <span class="month">June</span>
-                    <span class="day">18</span>
-                  </div>
-                  <a class="tag" href="#">Living Room</a>
-                  <h6 class="title mt-1"><a href="page-blog-single.html">Private Contemporary Home Balancing Openness</a></h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="blog-style1">
-                <div class="blog-img"><img class="w-100" src="{{asset('theme/images/blog/blog-2.jpg')}}" alt=""></div>
-                <div class="blog-content">
-                  <div class="date">
-                    <span class="month">July</span>
-                    <span class="day">28</span>
-                  </div>
-                  <a class="tag" href="#">Living Room</a>
-                  <h6 class="title mt-1"><a href="page-blog-single.html">Private Contemporary Home Balancing Openness</a></h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-              <div class="blog-style1">
-                <div class="blog-img"><img class="w-100" src="{{asset('theme/images/blog/blog-3.jpg')}}" alt=""></div>
-                <div class="blog-content">
-                  <div class="date">
-                    <span class="month">July</span>
-                    <span class="day">28</span>
-                  </div>
-                  <a class="tag" href="#">Living Room</a>
-                  <h6 class="title mt-1"><a href="page-blog-single.html">Private Contemporary Home Balancing Openness</a></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
+
     <!-- Our Footer -->
     <section class="footer-style1 at-home4 pt60 pb-0">
       <div class="container">
