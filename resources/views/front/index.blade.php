@@ -232,395 +232,394 @@
       </div>
     </section>
 
-       <!-- Popular Property -->
-       <section class="pb90 pb30-md pt-0">
-        <div class="container">
-          <div class="row wow fadeInUp" data-wow-delay="00ms">
-            <div class="col-lg-9">
-              <div class="main-title2">
-                <h2 class="title">Discover Popular Properties</h2>
-                {{-- <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p> --}}
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="dark-light-navtab style2 text-start text-lg-end mt-0 mt-lg-4 mb-4">
-                <ul class="nav nav-pills justify-content-start justify-content-lg-end" id="pills-tab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For Rent</button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link me-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Sale</button>
-                  </li>
-                </ul>
-              </div>
+    <!-- Popular Property -->
+    <section class="pb90 pb30-md pt-0">
+      <div class="container">
+        <div class="row wow fadeInUp" data-wow-delay="00ms">
+          <div class="col-lg-9">
+            <div class="main-title2">
+              <h2 class="title">Discover Popular Properties</h2>
+              {{-- <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p> --}}
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-12 wow fadeInUp" data-wow-delay="300ms">
-              <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                  <div class="row">
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-15.jpg')}}" alt="">
-                          <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+          <div class="col-lg-3">
+            <div class="dark-light-navtab style2 text-start text-lg-end mt-0 mt-lg-4 mb-4">
+              <ul class="nav nav-pills justify-content-start justify-content-lg-end" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For Rent</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link me-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Sale</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay="300ms">
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-15.jpg')}}" alt="">
+                        <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$14,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Equestrian Family Home</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$14,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Equestrian Family Home</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-16.jpg')}}" alt="">
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-16.jpg')}}" alt="">
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$82,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Luxury villa in Rego Park</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$82,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Luxury villa in Rego Park</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-17.jpg')}}" alt="">
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-17.jpg')}}" alt="">
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$63,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Villa on Hollywood Boulevard</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$63,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Villa on Hollywood Boulevard</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-10.jpg')}}" alt="">
-                          <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-10.jpg')}}" alt="">
+                        <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$63,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Villa on Hollywood Boulevard</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$63,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Villa on Hollywood Boulevard</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-11.jpg')}}" alt="">
-                          <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-11.jpg')}}" alt="">
+                        <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$14,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Triple Story House for Rent</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$14,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Triple Story House for Rent</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-12.jpg')}}" alt="">
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-12.jpg')}}" alt="">
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$82,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Northwest Office Space</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$82,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Northwest Office Space</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-13.jpg')}}" alt="">
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-13.jpg')}}" alt="">
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$63,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Affordable Green Villa House</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$63,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Affordable Green Villa House</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-14.jpg')}}" alt="">
-                          <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-14.jpg')}}" alt="">
+                        <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$63,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Sky Pool Villa House</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$63,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Sky Pool Villa House</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                  <div class="row">
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-15.jpg')}}" alt="">
-                          <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row">
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-15.jpg')}}" alt="">
+                        <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$14,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Equestrian Family Home</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$14,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Equestrian Family Home</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-16.jpg')}}" alt="">
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-16.jpg')}}" alt="">
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$82,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Luxury villa in Rego Park</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$82,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Luxury villa in Rego Park</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-17.jpg')}}" alt="">
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-17.jpg')}}" alt="">
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$63,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Villa on Hollywood Boulevard</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$63,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Villa on Hollywood Boulevard</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-10.jpg')}}" alt="">
-                          <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-10.jpg')}}" alt="">
+                        <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$63,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Villa on Hollywood Boulevard</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$63,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Villa on Hollywood Boulevard</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-11.jpg')}}" alt="">
-                          <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-11.jpg')}}" alt="">
+                        <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$14,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Triple Story House for Rent</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$14,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Triple Story House for Rent</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-12.jpg')}}" alt="">
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-12.jpg')}}" alt="">
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$82,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Northwest Office Space</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$82,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Northwest Office Space</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-13.jpg')}}" alt="">
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-13.jpg')}}" alt="">
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$63,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Affordable Green Villa House</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$63,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Affordable Green Villa House</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 col-xl-3">
-                      <div class="listing-style5">
-                        <div class="list-thumb">
-                          <img class="w-100" src="{{asset('theme/images/listings/g1-14.jpg')}}" alt="">
-                          <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
-                          <div class="list-meta2">
-                            <a href="#"><span class="flaticon-like"></span></a>
-                            <a href="#"><span class="flaticon-new-tab"></span></a>
-                            <a href="#"><span class="flaticon-fullscreen"></span></a>
-                          </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <div class="listing-style5">
+                      <div class="list-thumb">
+                        <img class="w-100" src="{{asset('theme/images/listings/g1-14.jpg')}}" alt="">
+                        <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>FEATURED</div>
+                        <div class="list-meta2">
+                          <a href="#"><span class="flaticon-like"></span></a>
+                          <a href="#"><span class="flaticon-new-tab"></span></a>
+                          <a href="#"><span class="flaticon-fullscreen"></span></a>
                         </div>
-                        <div class="list-content">
-                          <div class="list-price mb-2">$63,000 / <span>mo</span></div>
-                          <h6 class="list-title"><a href="page-property-single-v1.html">Sky Pool Villa House</a></h6>
-                          <p class="list-text">California City, CA, USA</p>
-                          <div class="list-meta d-flex align-items-center">
-                            <a href="#"><span class="flaticon-bed"></span>3 bed</a>
-                            <a href="#"><span class="flaticon-shower"></span>4 bath</a>
-                            <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
-                          </div>
+                      </div>
+                      <div class="list-content">
+                        <div class="list-price mb-2">$63,000 / <span>mo</span></div>
+                        <h6 class="list-title"><a href="page-property-single-v1.html">Sky Pool Villa House</a></h6>
+                        <p class="list-text">California City, CA, USA</p>
+                        <div class="list-meta d-flex align-items-center">
+                          <a href="#"><span class="flaticon-bed"></span>3 bed</a>
+                          <a href="#"><span class="flaticon-shower"></span>4 bath</a>
+                          <a href="#"><span class="flaticon-expand"></span>1200 sqft</a>
                         </div>
                       </div>
                     </div>
@@ -630,52 +629,44 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
 
 
     <section class="p-0">
-        <div class="container p-0">
-            {{--  --}}
-                <div class="container">
-                    <div class="row wow fadeInUp" data-wow-delay="00ms">
-                        <div class="col-lg-9">
-                          <div class="main-title2">
-                            <h2 class="title">Discover Popular Cities</h2>
-                            {{-- <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p> --}}
-                          </div>
-                        </div>
-                        <div class="col-lg-3">
-                          <div class="dark-light-navtab style2 text-start text-lg-end mt-0 mt-lg-4 mb-4">
-                            <ul class="nav nav-pills justify-content-start justify-content-lg-end" id="pills-tab" role="tablist">
-                              {{-- <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For Rent</button>
-                              </li>
-                              <li class="nav-item" role="presentation">
-                                <button class="nav-link me-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Sale</button>
-                              </li> --}}
-                            </ul>
-                          </div>
+      <div class="container p-0">
+          {{--  --}}
+              <div class="container">
+                  <div class="row wow fadeInUp" data-wow-delay="00ms">
+                      <div class="col-lg-9">
+                        <div class="main-title2">
+                          <h2 class="title">Discover Popular Cities</h2>
+                          {{-- <p class="paragraph">Aliquam lacinia diam quis lacus euismod</p> --}}
                         </div>
                       </div>
-                </div>
-            {{--  --}}
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="home10-map" id="map" data-map-zoom="7" data-map-scroll="true"></div>
-            </div>
+                      <div class="col-lg-3">
+                        <div class="dark-light-navtab style2 text-start text-lg-end mt-0 mt-lg-4 mb-4">
+                          <ul class="nav nav-pills justify-content-start justify-content-lg-end" id="pills-tab" role="tablist">
+                            {{-- <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">For Rent</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link me-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">For Sale</button>
+                            </li> --}}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+          {{--  --}}
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="home10-map" id="map" data-map-zoom="7" data-map-scroll="true"></div>
           </div>
         </div>
-      </section>
-
-
-
-
-
-
-
-
-
+      </div>
+    </section>
 
     <!-- Inquiry Form -->
     <section>
@@ -768,16 +759,13 @@
       </div>
     </section>
 
-
-
-
     <!-- Our Footer -->
     <section class="footer-style1 at-home4 pt60 pb-0">
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-lg-3">
             <div class="footer-widget light-style mb-4 mb-lg-5">
-              <a class="footer-logo" href="#"><img class="mb40" src="{{asset('theme/images/lack-White-Minimalist-Business-Logo.png')}}" alt=""></a>
+              <h6 class="mb25">About Us</h6>
               <div class="contact-info mb25">
                 <p class="text mb5">Address</p>
                 <h6 class="info-phone"><a href="%2b(0)-123-050-945-02.html">Edif. 7 Mares, Av. Dom João II 20 1º, 1990-095 Lisboa, Portugal.</a></h6>
@@ -787,7 +775,7 @@
                 <h6 class="info-phone"><a href="%2b(0)-123-050-945-02.html">+351 123 050 945 02</a></h6>
               </div>
               <div class="contact-info">
-                <p class="text mb5">Nee Live Support?</p>
+                <p class="text mb5">Live Support?</p>
                 <h6 class="info-mail"><a href="mailto:hi@Marlene Real Estate.com">hi@MarleneRealEstate.com</a></h6>
               </div>
             </div>
@@ -803,15 +791,6 @@
                   <a href="#">Offices for Rent</a>
                 </div>
               </div>
-              <div class="link-style1 light-style mb-4">
-                <h6 class="mb20">Discover</h6>
-                <ul class="ps-0">
-                  <li><a href="#">Porto</a></li>
-                  <li><a href="#">Aveiro</a></li>
-                  <li><a href="#">Evora</a></li>
-                  <li><a href="#">Sintra</a></li>
-                </ul>
-              </div>
             </div>
           </div>
           <div class="col-sm-6 col-lg-3">
@@ -821,11 +800,10 @@
                 <ul class="ps-0">
                   <li><a href="#">Terms of Use</a></li>
                   <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Pricing Plans</a></li>
                   <li><a href="#">Our Services</a></li>
                   <li><a href="#">Contact Support</a></li>
                   <li><a href="#">Careers</a></li>
-                  <li><a href="#">FAQs</a></li>
+
                 </ul>
               </div>
             </div>
@@ -840,33 +818,37 @@
                 </div>
               </div>
               <div class="app-widget at-home7">
-                <h5 class="title mb10">Apps</h5>
+                <h5 class="title mb10">Cities</h5>
                 <div class="row">
-                  <div class="col-auto">
-                    <a href="#">
-                      <div class="app-info light-style d-flex align-items-center mb10">
-                        <div class="flex-shrink-0">
-                          <i class="fab fa-apple fz30 text-white"></i>
-                        </div>
-                        <div class="flex-grow-1 ml20">
-                          <p class="app-text fz13 mb0">Download on the</p>
-                          <h6 class="app-title text-white fz14">Apple Store</h6>
-                        </div>
-                      </div>
-                    </a>
+                  <div class="col-sm-6 col-lg-3">
+                    {{--  --}}
+                    <div class="link-style1 light-style mb-4">
+                        <ul class="ps-0">
+                            <li><a href="#">Evora</a></li>
+                            <li><a href="#">Sintra</a></li>
+                        </ul>
+                    </div>
+                    {{--  --}}
                   </div>
-                  <div class="col-auto">
-                    <a href="#">
-                      <div class="app-info light-style d-flex align-items-center mb10">
-                        <div class="flex-shrink-0">
-                          <i class="fab fa-google-play fz30 text-white"></i>
-                        </div>
-                        <div class="flex-grow-1 ml20">
-                          <p class="app-text fz13 mb0">Get in on</p>
-                          <h6 class="app-title text-white fz14">Google Play</h6>
-                        </div>
-                      </div>
-                    </a>
+                  <div class="col-sm-6 col-lg-3">
+                    {{--  --}}
+                    <div class="link-style1 light-style mb-4">
+                        <ul class="ps-0">
+                            <li><a href="#">Porto</a></li>
+                            <li><a href="#">Aveiro</a></li>
+                        </ul>
+                    </div>
+                    {{--  --}}
+                  </div>
+                  <div class="col-sm-6 col-lg-3">
+                    {{--  --}}
+                    <div class="link-style1 light-style mb-4">
+                        <ul class="ps-0">
+                            <li><a href="#">Evora</a></li>
+                            <li><a href="#">Sintra</a></li>
+                        </ul>
+                    </div>
+                    {{--  --}}
                   </div>
                 </div>
               </div>
