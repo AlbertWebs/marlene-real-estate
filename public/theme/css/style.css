@@ -2960,6 +2960,7 @@ h2 {
 .sp-img-content.at-sp-v10 .preview-img-3 {
   height: 220px;
   border-radius: 0;
+
 }
 @media (max-width: 991.98px) {
   .sp-img-content.at-sp-v10 .preview-img-3 {
@@ -3425,7 +3426,7 @@ h2 {
 
 /*Home 3 Banner Content*/
 .home-banner-style3 {
-  background-image: url(../images/home/home-3.jpg);
+  /* background-image: url(../images/home/home-3.jpg); */
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -10402,5 +10403,14 @@ input:focus-visible {
     border-bottom: 1px solid #DDDDDD;
   }
 }
+
+.img-border-radius{
+    border-radius: 10px;
+}
+
+.imageClass {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
 
 /*# sourceMappingURL=style.css.map */
