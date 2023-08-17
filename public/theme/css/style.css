@@ -10413,4 +10413,8 @@ input:focus-visible {
     filter: grayscale(100%);
   }
 
+  .image-border{
+    border:15px solid gray;
+  }
+
 /*# sourceMappingURL=style.css.map */

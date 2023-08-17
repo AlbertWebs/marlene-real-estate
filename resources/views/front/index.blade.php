@@ -374,7 +374,7 @@
                         <div class="col-lg-6 col-sm-12  col-xl-6">
                             <div class="listing-style5">
                             <div class="list-thumb">
-                                <img class="w-100 imageClass" src="{{asset('theme/images/listings/g1-15.jpg')}}" alt="">
+                                <img class="w-100 imageClass image-border" src="{{asset('theme/images/listings/g1-15.jpg')}}" alt="">
                                 <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>Rent</div>
                                 <div class="list-meta2">
                                 <a href="#"><span class="flaticon-like"></span></a>
@@ -399,7 +399,7 @@
                     </div>
 
                     {{--  --}}
-                    <hr>
+                    {{-- <hr> --}}
 
                     <div class="row">
                         <div class="col-lg-6 col-sm-12  col-xl-6">
@@ -416,7 +416,7 @@
                         <div class="col-lg-6 col-sm-12  col-xl-6">
                             <div class="listing-style5">
                             <div class="list-thumb">
-                                <img class="w-100 imageClass" src="{{asset('theme/images/listings/g1-15.jpg')}}" alt="">
+                                <img class="w-100 imageClass image-border" src="{{asset('theme/images/listings/g1-15.jpg')}}" alt="">
                                 <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>Rent</div>
                                 <div class="list-meta2">
                                 <a href="#"><span class="flaticon-like"></span></a>
@@ -425,6 +425,34 @@
                                 </div>
                             </div>
 
+                            </div>
+                        </div>
+                    </div>
+                    {{--  --}}
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12  col-xl-6">
+                            <div class="listing-style5">
+                            <div class="list-thumb">
+                                <img class="w-100 imageClass image-border" src="{{asset('theme/images/listings/g1-15.jpg')}}" alt="">
+                                <div class="list-tag fz12"><span class="flaticon-electricity me-2"></span>Rent</div>
+                                <div class="list-meta2">
+                                <a href="#"><span class="flaticon-like"></span></a>
+                                <a href="#"><span class="flaticon-new-tab"></span></a>
+                                <a href="#"><span class="flaticon-fullscreen"></span></a>
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12  col-xl-6">
+                            <div class="listing-style5">
+                                <div class="list-content">
+                                    <div class="ui-content mt40 mb60">
+                                        <h4 class="mb10">Property Title and Description</h4>
+                                        <p class="mb25 ff-heading">It doesn’t matter how organized you are — a surplus of toys will always ensure your house is a mess waiting to happen. Fortunately, getting kids on board with the idea of ditching their stuff is a lot easier than it sounds.</p>
+                                        <p class="ff-heading">The trick is to make it an opportunity for them to define themselves and their interests. Encourage kids to make a pile of ”baby toys” to donate, and have them set aside any toys that no longer interest them, such as action figures from a forgotten TV show. Separating these toys will help them appreciate how much they’ve grown and rediscover the toys they love.</p>
+                                      </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -623,7 +651,7 @@
           </div>
           <div class="col-lg-6 col-xl-6 offset-xl-1 wow fadeInLeft" data-wow-delay="300ms">
             <div class="inquiry-form">
-              <div class="inquiry-img"><img class="w-100" src="{{asset('theme/images/about/about-3.jpg')}}" alt=""></div>
+              <div class="inquiry-img imageClass"><img class="w-100" src="{{asset('theme/images/about/about-3.jpg')}}" alt=""></div>
             </div>
           </div>
         </div>
