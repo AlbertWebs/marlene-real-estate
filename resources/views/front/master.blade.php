@@ -111,8 +111,8 @@
                 <!--end col-md-4-->
                 <div class="col-md-8 col-sm-8">
                     <div class="contact-data text-align-right">
-                        <figure>+1 (734) 123-4567</figure>
-                        <a href="#">hello@archits.com</a>
+                        <figure>+351 932 239 257</figure>
+                        <a href="#">hello@example.com</a>
                     </div>
                 </div>
                 <!--end col-md-8-->
