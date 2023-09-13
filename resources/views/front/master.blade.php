@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="wrapper">
                     <div class="left">
-                        <a href="index-v1.html" class="brand"><img style="max-width:200px" src="{{asset('uploads/logo.jpg')}}" alt=""></a>
+                        <a href="index-v1.html" class="brand"><img style="max-width:200px" src="{{asset('uploads/logo.png')}}" alt=""></a>
                     </div>
                     <!--end left-->
                     <div class="right">
@@ -99,7 +99,7 @@
 
     <footer id="page-footer" class="block background-is-dark">
         <div class="container">
-            <a href="#" class="brand"><img src="{{asset('uploads/logo.jpg')}}" alt=""></a>
+            <a href="#" class="brand"><img src="{{asset('uploads/logo.png')}}" alt=""></a>
             <!--end brand-->
             <div class="row">
                 <div class="col-md-4 col-sm-4">
