@@ -70,20 +70,22 @@
 
     <div class="block" id="about">
         <div class="container">
-            <h2>About the project.</h2>
+            <h2>About the Gamping projects</h2>
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <h3>Place where you find yourself</h3>
-                    <p>Nam in sodales massa. Donec at ullamcorper diam. Pellentesque habitant morbi tristique
-                        senectus et netus et malesuada fames ac turpis egestas. Vivamus et ornare leo,
-                        a commodo tellus. Suspendisse potenti. Ut posuere viverra lectus non scelerisque.
+                    <p>Glamping projects facilitate development of high-quality outdoor accommodations and guest experiences in remote locations at significantly lower cost [and lower environmental impact] which can satisfy consumer desires for authenticity and provide interaction with local communities which are not found within traditional resorts.
+
                     </p>
-                    <ul class="check-marks">
+                    <p>Glamping projects facilitate development of high-quality outdoor accommodations and guest experiences in remote locations at significantly lower cost [and lower environmental impact] which can satisfy consumer desires for authenticity and provide interaction with local communities which are not found within traditional resorts.
+
+                    </p>
+                    {{-- <ul class="check-marks">
                         <li>Quite and peaceful location near the nature</li>
                         <li>Shopping and fitness center right inside the complex</li>
                         <li>Lot of parking places, even for your visitors</li>
                         <li>Many play areas for your kids</li>
-                    </ul>
+                    </ul> --}}
                     <!--end ul-->
                 </div>
                 <!--end col-md-6-->
@@ -93,7 +95,7 @@
                     <a href="http://vimeo.com/24506451" class="video-player video-popup" data-scroll-reveal="enter bottom and move 50px">
                         <i class="play-icon arrow_triangle-right"></i>
                         <div class="has-overlay">
-                            <img src="{{asset('themes/assets/img/image-video.jpg')}}" alt="">
+                            <img src="{{url('uploads/unnamed.jpg')}}" alt="">
                         </div>
                     </a>
                     <figure class="note">Let’s check the benefits of this project from the architect</figure>
@@ -114,55 +116,61 @@
     <div class="block">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-4 col-sm-3">
                     <div class="stage completed" data-scroll-reveal="enter left and move 20px">
                         <div class="icon">
-                            <i class="icon_check"></i>
+                            <i class="fa fa-file-pdf-o"></i>
                         </div>
                         <!--end icon-->
-                        <div class="description">
-                            <h3>1. Stage</h3>
-                            <h2>Planning</h2>
-                            <figure>Completed</figure>
-                        </div>
+                            <a href="{{url('/')}}/uploads/dummy.pdf" download="Santana & Partners Commercial Fair">
+                            <div class="description">
+                                <h3>Project 1</h3>
+                                <h2>Santana & Partners Commercial Fair</h2>
+                                <figure>Completed</figure>
+                            </div>
+                            </a>
                         <!--end description-->
                     </div>
                     <!--end stage-->
                 </div>
                 <!--end col-md-3-->
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-4 col-sm-3">
                     <div class="stage completed" data-scroll-reveal="enter left and move 20px after 0.2s">
                         <div class="icon">
-                            <i class="icon_check"></i>
+                            <i class="fa fa-file-pdf-o"></i>
                         </div>
                         <!--end icon-->
+                        <a href="{{url('/')}}/uploads/dummy.pdf" download="Santana & Partners Residential Fair">
                         <div class="description">
-                            <h3>2. Stage</h3>
-                            <h2>Building</h2>
+                            <h3>Project 2</h3>
+                            <h2>Santana & Partners Residential Fair</h2>
                             <figure>Completed</figure>
                         </div>
+                        </a>
                         <!--end description-->
                     </div>
                     <!--end stage-->
                 </div>
                 <!--end col-md-3-->
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-4 col-sm-3">
                     <div class="stage in-progress" data-scroll-reveal="enter left and move 20px after 0.4s">
                         <div class="icon">
-                            <i class="icon_hourglass"></i>
+                            <i class="fa fa-file-pdf-o"></i>
                         </div>
                         <!--end icon-->
+                        <a href="{{url('/')}}/uploads/dummy.pdf" download="Santana & Partners Villas Fair">
                         <div class="description">
-                            <h3>3. Stage</h3>
-                            <h2>Finishing works</h2>
+                            <h3>Project 3</h3>
+                            <h2>Santana & Partners Villas Fair</h2>
                             <figure>In progress</figure>
                         </div>
+                        </a>
                         <!--end description-->
                     </div>
                     <!--end stage-->
                 </div>
                 <!--end col-md-3-->
-                <div class="col-md-3 col-sm-3">
+                {{-- <div class="col-md-3 col-sm-3">
                     <div class="stage not-completed" data-scroll-reveal="enter left and move 20px after 0.6s">
                         <div class="icon">
                             <i class="icon_close"></i>
@@ -176,7 +184,7 @@
                         <!--end description-->
                     </div>
                     <!--end stage-->
-                </div>
+                </div> --}}
                 <!--end col-md-3-->
             </div>
             <!--end row-->
@@ -196,9 +204,9 @@
                     <div class="col-md-7 col-sm-7">
                         <div class="gallery" data-scroll-reveal="enter left and move 20px after">
                             <div class="owl-carousel one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                <img src="{{asset('themes/assets/img/gallery-01.jpg')}}" alt="">
-                                <img src="{{asset('themes/assets/img/image-video.jpg')}}" alt="">
-                                <img src="{{asset('themes/assets/img/gallery-02.jpg')}}" alt="">
+                                <img style="min-height:300px;" src="{{asset('uploads/2-galeria-3.jpg')}}" alt="">
+                                <img style="min-height:300px;" src="{{asset('uploads/3-galeria-3.jpg')}}" alt="">
+                                <img style="min-height:300px;" src="{{asset('uploads/4-galeria-4.jpg')}}" alt="">
                             </div>
                         </div>
                         <!--end gallery-->
@@ -266,7 +274,7 @@
 
     <div class="block" id="gallery">
         <div class="container">
-            <h2>Gallery.</h2>
+            <h2>Popular Properties.</h2>
         </div>
         <div class="owl-carousel big-gallery" data-owl-items="3" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="0" data-owl-center="1" data-owl-loop="1" data-owl-nav-container="#big-gallery-nav">
             <div class="slide">
