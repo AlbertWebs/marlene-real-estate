@@ -27,15 +27,15 @@
             <div class="container">
                 <div class="wrapper">
                     <div class="left">
-                        <a href="index-v1.html" class="brand"><img src="{{asset('themes/assets/img/logo.png')}}" alt=""></a>
+                        <a href="index-v1.html" class="brand"><img style="max-width:200px" src="{{asset('uploads/logo.jpg')}}" alt=""></a>
                     </div>
                     <!--end left-->
                     <div class="right">
                         <ul class="nav navigation-links animate">
                             <li><a href="#page-top" class="scroll">Home</a></li>
-                            <li><a href="#about" class="scroll">About</a></li>
-                            <li><a href="#gallery" class="scroll">Gallery</a></li>
-                            <li><a href="#pricing" class="scroll">Pricing</a></li>
+                            <li><a href="#about" class="scroll"> ECO Sustainability</a></li>
+                            <li><a href="#gallery" class="scroll">Residential properties</a></li>
+                            <li><a href="#pricing" class="scroll">Commercial properties</a></li>
                             <li><a href="#contact" class="scroll">Contact</a></li>
                         </ul>
                         <div class="nav-btn">
@@ -54,9 +54,11 @@
             <div class="wrapper">
                 <div class="hero-title">
                     <div class="container">
-                        <h1 class="animate">Get Ready.<br>We're finishing!</h1>
+                        <h1 class="animate">Get Ready.
+                            {{-- <br>We're finishing! --}}
+                        </h1>
                         <form class="animate" id="form-hero">
-                            <label for="form-hero-email">Enter your email for the latest news</label>
+                            <label for="form-hero-email">Enter your email for the latest properties</label>
                             <div class="row">
                                 <div class="col-md-5 col-sm-5">
                                     <div class="input-group">
@@ -97,7 +99,7 @@
 
     <footer id="page-footer" class="block background-is-dark">
         <div class="container">
-            <a href="#" class="brand"><img src="{{asset('themes/assets/img/logo.png')}}" alt=""></a>
+            <a href="#" class="brand"><img src="{{asset('uploads/logo.jpg')}}" alt=""></a>
             <!--end brand-->
             <div class="row">
                 <div class="col-md-4 col-sm-4">

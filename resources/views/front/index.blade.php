@@ -11,7 +11,7 @@
                         <i class="icon"><img src="{{asset('themes/assets/img/icon-white-shield.png')}}" alt=""></i>
                         <!--end icon-->
                         <div class="description">
-                            <h3>Modern & Safe Living</h3>
+                            <h3>ECO Sustainability</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac ornare felis.
                                 Nam velit neque, blandit id placerat
                             </p>
@@ -27,7 +27,7 @@
                         <i class="icon"><img src="{{asset('themes/assets/img/icon-white-pin.png')}}" alt=""></i>
                         <!--end icon-->
                         <div class="description">
-                            <h3>Peaceful Location</h3>
+                            <h3>Residential Properties</h3>
                             <p>Mauris ac ornare felis. Nam velit neque, blandit id placerat eu, venenatis at purus.
                                 Nunc maximus ultrices lacus
                             </p>
@@ -43,7 +43,7 @@
                         <i class="icon"><img src="{{asset('themes/assets/img/icon-white-wallet.png')}}" alt=""></i>
                         <!--end icon-->
                         <div class="description">
-                            <h3>Great Starting Prices</h3>
+                            <h3>Commercial Properties</h3>
                             <p>Nam velit neque, blandit id placerat eu, venenatis at purus. Nunc maximus ultrices
                                 lacus eu fringilla.
                             </p>
