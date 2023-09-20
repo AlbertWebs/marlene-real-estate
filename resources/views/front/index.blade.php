@@ -279,9 +279,30 @@
         <div class="owl-carousel big-gallery" data-owl-items="3" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="0" data-owl-center="1" data-owl-loop="1" data-owl-nav-container="#big-gallery-nav">
             <div class="slide">
                 <div class="container">
-                    <img src="{{asset('themes/assets/img/gallery-big-01.jpg')}}" alt="">
+                    <img  src="{{asset('uploads/5-galeria-2.jpg')}}" alt="">
                     <div class="description">
-                        <h3 class="framed">Front View</h3>
+
+                        <h3 class="framed">
+                            <p>
+                                5 Bedroom Condo For Rent
+                            </p>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3">
+                                    <i class="fa fa-bed"></i><br>
+                                    5
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <i class="fa fa-car"></i><br>
+                                    1
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <i class="fa fa-bed"></i><br>
+                                    5
+                                </div><div class="col-md-3 col-sm-3">
+                                    <a data-toggle="modal" data-target="#floor-modal" href="#"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </h3>
                     </div>
                 </div>
                 <!--end container-->
@@ -289,19 +310,60 @@
             <!--end slide-->
             <div class="slide">
                 <div class="container">
-                    <img src="{{asset('themes/assets/img/gallery-big-02.jpg')}}" alt="">
+                    <img src="{{asset('uploads/2-galeria.jpg')}}" alt="">
                     <div class="description">
-                        <h3 class="framed">Garage</h3>
+                        <h3 class="framed">
+                            <p>
+                                Um estilo de vida
+                            </p>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3">
+                                    <i class="fa fa-bed"></i><br>
+                                    5
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <i class="fa fa-car"></i><br>
+                                    1
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <i class="fa fa-bed"></i><br>
+                                    5
+                                </div><div class="col-md-3 col-sm-3">
+                                    <a data-toggle="modal" data-target="#floor-modal" href="#"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </h3>
                     </div>
                 </div>
                 <!--end container-->
             </div>
             <!--end slide-->
+              <!--end slide-->
             <div class="slide">
                 <div class="container">
-                    <img src="{{asset('themes/assets/img/gallery-big-03.jpg')}}" alt="">
+                    <img src="{{asset('uploads/2-galeria.jpg')}}" alt="">
                     <div class="description">
-                        <h3 class="framed">Back View</h3>
+                        <h3 class="framed">
+                            <p>
+                                Um estilo de vida
+                            </p>
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3">
+                                    <i class="fa fa-bed"></i><br>
+                                    5
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <i class="fa fa-car"></i><br>
+                                    1
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <i class="fa fa-bed"></i><br>
+                                    6
+                                </div><div class="col-md-3 col-sm-3">
+                                    <a data-toggle="modal" data-target="#floor-modal" href="#"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </h3>
                     </div>
                 </div>
                 <!--end container-->
@@ -320,9 +382,95 @@
     <!--end block-->
 
 
+    <div class="block" id="residential">
+        <div class="container">
+            <h2>Residential properties.</h2>
+            <div class="row">
+                <div class="pricing-boxes">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="price-box description">
+                            <h3>Choose your apartment</h3>
+                            <div class="price old">Old price</div>
+                            <div class="price">New price</div>
+                            <div class="values">
+                                <figure>Apartment area</figure>
+                                <figure>Balcony area</figure>
+                                <figure>Parking place</figure>
+                                <figure>Free apartments</figure>
+                            </div>
+                        </div>
+                        <!--end description-->
+                    </div>
+                    <!--end col-md-3-->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px">
+                            <h3>2 Room Apartment</h3>
+                            <div class="price old">$99,000</div>
+                            <div class="price">$79,000</div>
+                            <div class="values">
+                                <figure>83m<sup>2</sup></figure>
+                                <figure>26m<sup>2</sup></figure>
+                                <figure class="not-available"><i class="icon_close"></i></figure>
+                                <figure>12</figure>
+                            </div>
+                            <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Apartment Details</a>
+                            <div class="price-box-footer">
+                                <a href="#" class="btn btn-rounded btn-primary">Contact us</a>
+                            </div>
+                        </div>
+                        <!--end price-box-->
+                    </div>
+                    <!--end col-md-3-->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="price-box framed promoted" data-scroll-reveal="enter bottom and move 20px after 0.2s">
+                            <div class="promotion-title"><span>Best value for money</span></div>
+                            <h3>3 Room Apartment</h3>
+                            <div class="price old">$99,000</div>
+                            <div class="price">$79,000</div>
+                            <div class="values">
+                                <figure>135m<sup>2</sup></figure>
+                                <figure>45m<sup>2</sup></figure>
+                                <figure class="available"><i class="icon_check"></i></figure>
+                                <figure>7</figure>
+                            </div>
+                            <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Apartment Details</a>
+                            <div class="price-box-footer">
+                                <a href="#" class="btn btn-rounded btn-primary">Contact us</a>
+                            </div>
+                        </div>
+                        <!--end price-box-->
+                    </div>
+                    <!--end col-md-3-->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px after 0.4s">
+                            <h3>4 Room Apartment</h3>
+                            <div class="price old">$129,000</div>
+                            <div class="price">$109,000</div>
+                            <div class="values">
+                                <figure>198m<sup>2</sup></figure>
+                                <figure>67m<sup>2</sup></figure>
+                                <figure class="available"><i class="icon_check"></i></figure>
+                                <figure>9</figure>
+                            </div>
+                            <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Apartment Details</a>
+                            <div class="price-box-footer">
+                                <a href="#" class="btn btn-rounded btn-primary">Contact us</a>
+                            </div>
+                        </div>
+                        <!--end price-box-->
+                    </div>
+                    <!--end col-md-3-->
+                </div>
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </div>
+    <!--end block-->
 
-
-
+    <div class="block" id="contact" style="min-height: 500px !important">
+        <iframe width="100%" height="600" src="{{url('/map')}}">Your browser isn't compatible</iframe>
+    </div>
 
     <div class="block" id="contact">
         <div class="container">

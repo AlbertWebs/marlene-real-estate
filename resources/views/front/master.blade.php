@@ -34,8 +34,9 @@
                         <ul class="nav navigation-links animate">
                             <li><a href="#page-top" class="scroll">Home</a></li>
                             <li><a href="#about" class="scroll"> ECO Sustainability</a></li>
-                            <li><a href="#gallery" class="scroll">Residential properties</a></li>
-                            <li><a href="#pricing" class="scroll">Commercial properties</a></li>
+                            <li><a href="#gallery" class="scroll">Popular Properties</a></li>
+                            <li><a href="#residential" class="scroll">Residential properties</a></li>
+                            <li><a href="#commercial" class="scroll">Commercial properties</a></li>
                             <li><a href="#contact" class="scroll">Contact</a></li>
                         </ul>
                         <div class="nav-btn">
